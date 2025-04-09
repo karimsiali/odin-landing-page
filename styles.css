@@ -10,6 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -17,5 +18,71 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 18px;
+    padding: 0 0 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 18px 0;
+    color: #F9FAF8;
+}
+
+.header, footer {
+    width: 100%;
+    background-color: #1F2939;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:  1rem 0 0;    
+}
+
+.navbar p {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.header-content p, a, button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-content {
+    max-width: 800px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 12px;
 }
