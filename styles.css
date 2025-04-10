@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
@@ -128,4 +129,28 @@ h2 {
     text-align: center;
     font-size: 14px;
     color: #1F2937;
+}
+
+.quote {
+    width: 100%;
+    background-color: #E5E7EB;
+    padding: 3rem 0;
+    margin-top: 2rem;
+}
+
+blockquote {
+    max-width: 800px;
+    margin: auto;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote p {
+    max-width: 800px;
+    text-align: right;
+    margin: 1rem auto 0;
+    font-weight: bold;
+    font-size: 22px;
 }
