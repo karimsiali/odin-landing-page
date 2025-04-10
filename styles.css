@@ -134,12 +134,11 @@ h2 {
 .quote {
     width: 100%;
     background-color: #E5E7EB;
-    padding: 3rem 0;
+    padding: 5rem 0;
     margin-top: 2rem;
 }
 
-blockquote {
-    max-width: 800px;
+blockquote {    
     margin: auto;
     font-style: italic;
     font-size: 36px;
@@ -148,9 +147,35 @@ blockquote {
 }
 
 .quote p {
-    max-width: 800px;
     text-align: right;
     margin: 1rem auto 0;
     font-weight: bold;
     font-size: 22px;
+}
+
+blockquote, .quote p {
+    max-width: 800px;    
+}
+
+.signup {
+    background-color: #3882F6;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.left p {
+    color: #E5E7EB;
+}
+
+.signup button {
+    box-shadow: 0 0 3px 2px #F9FAF8;
 }
