@@ -10,7 +10,6 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -102,7 +101,7 @@ h2 {
 
 .images {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 36px;
 }
