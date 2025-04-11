@@ -34,11 +34,11 @@ footer {
 }
 
 .navbar {
-    width: 100%;
+    width: 1000px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding:  1rem 0 0;    
+    padding:  1rem 0 0;
 }
 
 .navbar p {
@@ -64,12 +64,12 @@ a {
 }
 
 .header-content {
-    max-width: 800px;
-    padding: 2rem;
+    width: 1000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
-    gap: 3rem;
+    gap: 6rem;
+    margin-top: 3rem;
 }
 
 h1 {
@@ -103,7 +103,7 @@ h2 {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 36px;
+    gap: 100px;
 }
 
 .image-container {
@@ -158,7 +158,7 @@ blockquote, .quote p {
 
 .signup {
     background-color: #3882F6;
-    width: 800px;
+    width: 1000px;
     display: flex;
     justify-content: space-around;
     align-items: center;
